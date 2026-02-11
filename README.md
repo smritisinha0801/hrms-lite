@@ -1,4 +1,4 @@
-# Project Overview
+<img width="1919" height="1079" alt="Screenshot 2026-02-11 170640" src="https://github.com/user-attachments/assets/cdf6c3dc-538f-4fb3-9edf-f40cdc804683" /># Project Overview
 
 HRMS Lite is a lightweight Human Resource Management System designed to manage employee records and track daily attendance.
 
@@ -15,6 +15,16 @@ The application simulates a basic internal HR tool for administrative use. It al
 5. Dashboard summary of total employees and attendance records
 
 The focus of the project is clean architecture, proper API design, database integration, validation handling, and a production-ready UI.
+# Deployment Status
+
+The application works fully in the local environment.
+
+Deployment was attempted on cloud platforms. However, deployment issues occurred due to environment configuration and platform-specific build/runtime constraints.
+
+The project is fully functional locally and deployment troubleshooting is currently in progress.
+
+
+![Uploading Screenshot 2026-02-11 170640.png…]()
 
 # Tech Stack Used:-
 1. Frontend
