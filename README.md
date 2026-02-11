@@ -151,13 +151,6 @@ Attendance is tracked per employee per date
 
 No payroll or leave management included (out of scope)
 
-# Deployment Status
-
-The application works fully in the local environment.
-
-Deployment was attempted on cloud platforms. However, deployment issues occurred due to environment configuration and platform-specific build/runtime constraints.
-
-The project is fully functional locally and deployment troubleshooting is currently in progress.
 
 # Repository
 
