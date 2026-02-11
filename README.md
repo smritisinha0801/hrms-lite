@@ -1,4 +1,4 @@
-Project Overview
+1) Project Overview
 
 HRMS Lite is a lightweight Human Resource Management System designed to manage employee records and track daily attendance.
 
@@ -16,34 +16,34 @@ The application simulates a basic internal HR tool for administrative use. It al
 
 The focus of the project is clean architecture, proper API design, database integration, validation handling, and a production-ready UI.
 
-🛠 Tech Stack Used:-
+2) Tech Stack Used:-
 1. Frontend
 
-Streamlit
+   Streamlit
 
-Pandas
+   Pandas
 
-Requests
+   Requests
 
 2. Backend
 
-Python
+   Python
 
-Flask (REST API)
+   Flask (REST API)
 
-SQLAlchemy (ORM)
+   SQLAlchemy (ORM)
 
-Gunicorn (Production server)
+   Gunicorn (Production server)
 
 3. Database
 
-MySQL
+   MySQL
 
 4. Version Control
 
-Git & GitHub
+   Git & GitHub
 
- Project Structure
+3)  Project Structure
 hrms-lite/
 │
 ├── backend/
@@ -64,24 +64,23 @@ hrms-lite/
 │
 └── README.md
 
-⚙️ Steps to Run the Project Locally
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/hrms-lite.git
-cd hrms-lite
+5) Steps to Run the Project Locally
+   1. Clone the Repository- git clone https://github.com/your-username/hrms-lite.git
+    cd hrms-lite
 
-2️⃣ Backend Setup
+   2.  Backend Setup
 
 Navigate to backend folder:
 
 cd backend
 
 
-Create virtual environment:
+3. Create virtual environment:
 
 python -m venv .venv
 
 
-Activate environment:
+4. Activate environment:
 
 Windows:
 
@@ -117,7 +116,7 @@ Backend runs on:
 
 http://127.0.0.1:5000
 
-4️⃣ Frontend Setup
+Frontend Setup
 
 Open new terminal.
 
@@ -187,15 +186,8 @@ The project is fully functional locally and deployment troubleshooting is curren
 📬 Repository
 
 GitHub Repository:
-
 https://github.com/your-username/hrms-lite
 
-
-If you want, I can also:
-
-Make a more “corporate professional” README (for hiring managers)
-
-Add API documentation section
 
 Add sample API endpoints documentation
 
