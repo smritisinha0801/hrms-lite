@@ -1,4 +1,4 @@
-<img width="1919" height="1079" alt="Screenshot 2026-02-11 170640" src="https://github.com/user-attachments/assets/cdf6c3dc-538f-4fb3-9edf-f40cdc804683" />
+
 # Project Overview
 
 HRMS Lite is a lightweight Human Resource Management System designed to manage employee records and track daily attendance.
