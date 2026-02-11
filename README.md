@@ -1,4 +1,4 @@
-1) Project Overview
+# Project Overview
 
 HRMS Lite is a lightweight Human Resource Management System designed to manage employee records and track daily attendance.
 
@@ -16,7 +16,7 @@ The application simulates a basic internal HR tool for administrative use. It al
 
 The focus of the project is clean architecture, proper API design, database integration, validation handling, and a production-ready UI.
 
-2) Tech Stack Used:-
+# Tech Stack Used:-
 1. Frontend
 
    Streamlit
@@ -43,59 +43,34 @@ The focus of the project is clean architecture, proper API design, database inte
 
    Git & GitHub
 
-3)  Project Structure
-hrms-lite/
-│
-├── backend/
-│   ├── app.py
-│   ├── routes.py
-│   ├── models.py
-│   ├── db.py
-│   ├── config.py
-│   ├── validators.py
-│   ├── init_db.sql
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── app.py
-│   ├── api_client.py
-│   ├── ui_components.py
-│   └── requirements.txt
-│
-└── README.md
 
-5) Steps to Run the Project Locally
+#  Steps to Run the Project Locally
    1. Clone the Repository- git clone https://github.com/your-username/hrms-lite.git
-    cd hrms-lite
+      cd hrms-lite
 
-   2.  Backend Setup
+   2. Backend Setup
 
-Navigate to backend folder:
+    Navigate to backend folder: cd backend
 
-cd backend
-
-
-3. Create virtual environment:
-
-python -m venv .venv
+   3. Create virtual environment: python -m venv .venv
 
 
-4. Activate environment:
+   4. Activate environment:
 
-Windows:
+       Windows:
 
-.venv\Scripts\activate
+      .venv\Scripts\activate
 
 
-Install dependencies:
+   5. Install dependencies:
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
-3️⃣ Setup MySQL Database
+   6. Setup MySQL Database
 
-Login to MySQL and run:
+    Login to MySQL and run:
 
-CREATE DATABASE hrms_lite;
+   CREATE DATABASE hrms_lite;
 
 
 Then configure environment variables in .env file:
@@ -107,23 +82,20 @@ DB_USER=root
 DB_PASSWORD=your_password
 
 
-Run backend:
+ 7.Run backend:
 
-python app.py
+  python app.py
 
 
-Backend runs on:
+  Backend runs on: http://127.0.0.1:5000
 
-http://127.0.0.1:5000
-
-Frontend Setup
+8. Frontend Setup
 
 Open new terminal.
 
 Navigate to frontend:
 
 cd frontend
-
 
 Install dependencies:
 
@@ -139,7 +111,7 @@ Frontend runs on:
 
 http://localhost:8501
 
-✅ Functional Features Implemented
+#Functional Features Implemented
 
 Add Employee (Unique Employee ID)
 
@@ -165,7 +137,7 @@ Error handling with meaningful messages
 
 Loading, empty, and error states in UI
 
-📌 Assumptions
+#Assumptions
 
 Single admin user (no authentication required)
 
@@ -175,7 +147,7 @@ Attendance is tracked per employee per date
 
 No payroll or leave management included (out of scope)
 
-⚠️ Deployment Status
+# Deployment Status
 
 The application works fully in the local environment.
 
@@ -183,14 +155,8 @@ Deployment was attempted on cloud platforms. However, deployment issues occurred
 
 The project is fully functional locally and deployment troubleshooting is currently in progress.
 
-📬 Repository
+# Repository
 
 GitHub Repository:
-https://github.com/your-username/hrms-lite
+https://github.com/smritisinha0801/hrms-lite
 
-
-Add sample API endpoints documentation
-
-Help you write a short submission message for HR
-
-Just tell me.
