@@ -76,42 +76,33 @@ The focus of the project is clean architecture, proper API design, database inte
 Then configure environment variables in .env file:
 
 DB_HOST=localhost
+
 DB_PORT=3306
+
 DB_NAME=hrms_lite
+
 DB_USER=root
+
 DB_PASSWORD=your_password
 
 
- 7.Run backend:
+   7.Run backend: python app.py
 
-  python app.py
+     Backend runs on: http://127.0.0.1:5000
 
+   8. Frontend Setup
 
-  Backend runs on: http://127.0.0.1:5000
+    Open new terminal. Navigate to frontend: cd frontend
 
-8. Frontend Setup
+   9.Install dependencies:
 
-Open new terminal.
+    pip install -r requirements.txt
 
-Navigate to frontend:
+   10. Run Streamlit app: streamlit run app.py
+  
+  Frontend runs on: http://localhost:8501
 
-cd frontend
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-
-Run Streamlit app:
-
-streamlit run app.py
-
-
-Frontend runs on:
-
-http://localhost:8501
-
-#Functional Features Implemented
+# Functional Features Implemented
 
 Add Employee (Unique Employee ID)
 
@@ -137,7 +128,7 @@ Error handling with meaningful messages
 
 Loading, empty, and error states in UI
 
-#Assumptions
+# Assumptions
 
 Single admin user (no authentication required)
 
