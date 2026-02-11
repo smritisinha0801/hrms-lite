@@ -1,5 +1,4 @@
 Project Overview
-
 HRMS Lite is a lightweight Human Resource Management System designed to manage employee records and track daily attendance.
 
 The application simulates a basic internal HR tool for administrative use. It allows:
