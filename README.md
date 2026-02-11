@@ -25,6 +25,8 @@ The project is fully functional locally and deployment troubleshooting is curren
 
 
 ![Uploading Screenshot 2026-02-11 170640.png…]()
+<img width="1919" height="1079" alt="Screenshot 2026-02-11 170655" src="https://github.com/user-attachments/assets/5e96113b-8bc3-49e4-ae57-d668872637b1" />
+<img width="1919" height="1079" alt="Screenshot 2026-02-11 170703" src="https://github.com/user-attachments/assets/0651892b-bca0-477f-80c1-ddabec5067fb" />
 
 # Tech Stack Used:-
 1. Frontend
