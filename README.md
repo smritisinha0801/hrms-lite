@@ -1,22 +1,23 @@
 Project Overview
+
 HRMS Lite is a lightweight Human Resource Management System designed to manage employee records and track daily attendance.
 
 The application simulates a basic internal HR tool for administrative use. It allows:
 
-Adding and deleting employees
+1. Adding and deleting employees
 
-Viewing employee records
+2. Viewing employee records
 
-Marking daily attendance
+3. Marking daily attendance
 
-Viewing attendance history per employee
+4. Viewing attendance history per employee
 
-Dashboard summary of total employees and attendance records
+5. Dashboard summary of total employees and attendance records
 
 The focus of the project is clean architecture, proper API design, database integration, validation handling, and a production-ready UI.
 
-🛠 Tech Stack Used
-Frontend
+🛠 Tech Stack Used:-
+1. Frontend
 
 Streamlit
 
@@ -24,7 +25,7 @@ Pandas
 
 Requests
 
-Backend
+2. Backend
 
 Python
 
@@ -34,15 +35,15 @@ SQLAlchemy (ORM)
 
 Gunicorn (Production server)
 
-Database
+3. Database
 
 MySQL
 
-Version Control
+4. Version Control
 
 Git & GitHub
 
-🏗 Project Structure
+ Project Structure
 hrms-lite/
 │
 ├── backend/
